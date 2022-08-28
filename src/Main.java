@@ -10,19 +10,25 @@ public class Main {
             System.out.print(intArray[i]);
             if (i != intArray.length - 1){
                 System.out.print(", ");
-            } else System.out.println();
+            } else {
+                System.out.println();
+            }
         }
         for (int i = 0; i < doubles.length; i++) {
             System.out.print(doubles[i]);
-            if (i != doubles.length - 1){
+            if (i != doubles.length - 1) {
                 System.out.print(", ");
-            } else System.out.println();
+            } else {
+                System.out.println();
+            }
         }
         for (int i = 0; i < strings.length; i++) {
             System.out.print(strings[i]);
             if (i != strings.length - 1){
                 System.out.print(", ");
-            } else System.out.println();
+            } else {
+                System.out.println();
+            }
         }
 
         //task 3
@@ -30,27 +36,33 @@ public class Main {
             System.out.print(intArray[i]);
             if (i != 0){
                 System.out.print(", ");
-            } else System.out.println();
+            } else {
+                System.out.println();
+            }
         }
         for (int i = doubles.length - 1; i >= 0; i--) {
             System.out.print(doubles[i]);
             if (i != 0){
                 System.out.print(", ");
-            } else System.out.println();
+            } else {
+                System.out.println();
+            }
         }
         for (int i = strings.length - 1; i >= 0; i--) {
             System.out.print(strings[i]);
             if (i != 0){
                 System.out.print(", ");
-            } else System.out.println();
+            } else {
+                System.out.println();
+            }
         }
 
         //task 4
-        for (int i : intArray) {
-            if (i % 2 != 0){
-                i++;
+        for (int element : intArray) {
+            if (element % 2 != 0){
+                element++;
             }
-            System.out.print(i + " ");
+            System.out.print(element + " ");
         }
     }
 }
